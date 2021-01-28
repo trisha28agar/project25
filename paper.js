@@ -12,8 +12,8 @@ class Paper {
         World .add(world,this.body)
     }
     display(){
-        ellipseMode(RADIUS)
-        circle(this.body.position.x,this.body.position.y,this.radius)
-      image(this.image,this.body.position.x,this,body.position.y,33,33)
+        imageMode(RADIUS)
+        //circle(this.body.position.x,this.body.position.y,this.radius)
+      image(this.image,this.body.position.x,this.body.position.y,33,33)
     }
 }
